@@ -1,6 +1,6 @@
 
 public class Car extends Vehicle {
-	static final String[] typeChoise = { "Van", "Convertible", "Hearse", "Station", "Wagon", "Compartment", "Ambulance",
+	static final String[] typeCarChoise = { "Van", "Convertible", "Hearse", "Station", "Wagon", "Compartment", "Ambulance",
 			"Minivan", "Pickup", "Sedan", "Strachey", "Limousine", "Hatchback" };
 	private String type;
 
@@ -20,7 +20,7 @@ public class Car extends Vehicle {
 	public void setType(String type) throws NotValidParameterException {
 		if (type != null) {
 			for (int i = 0; i < fuelEngineChoise.length; i++) {
-				if (type.equals(typeChoise[i])) {
+				if (type.equals(typeCarChoise[i])) {
 					this.type = type;
 					break;
 				}
