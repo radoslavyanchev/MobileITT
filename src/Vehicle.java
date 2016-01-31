@@ -1,5 +1,5 @@
 
-public class Vehicle {
+public abstract class Vehicle {
 	static final String[] fuelEngineChoise = { "Petrol", "Naphtha", "Elektrisch", "Hybrid" };
 	static final String[] geareBoxChoise = { "manual", "automatic", "Semi-Àutomatic" };
 	String fuelEngine;
